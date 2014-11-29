@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import web
-import hashlib
-import lxml
-import time
 import os
-import urllib2,json
+import web
+import time
+import hashlib
 from lxml import etree
  
  
