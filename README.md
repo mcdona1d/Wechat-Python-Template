@@ -1,5 +1,6 @@
-raspchat
+Wechat-Python-Template
 ========
+
 将此文件夹放到树莓派中，更改`index.py`中的`your_token`为你的`token`
 
 在文件夹目录内，输入命令执行：`sudo python index.py 80`
@@ -10,7 +11,7 @@ Ps:如果无法执行，可能需要更改文件权限：`chmod +x index.py`
 
 需要安装`webpy`和`python-lxml`
 
-```bash
+``` bash
 
 git clonegit://github.com/webpy/webpy.git
 
