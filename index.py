@@ -41,7 +41,7 @@ class WeixinInterface:
  
     def GET(self):
         #获取输入参数
-	data = web.input()
+        data = web.input()
         if _check_hash(data):
             return data.echostr
 
